@@ -74,7 +74,6 @@ $(document).ready(function() {
     // instead of a settings object
   ]
 
-
   });
 
   $('.contact-slide').slick({
@@ -154,14 +153,6 @@ $(document).ready(function() {
           ]
   });
 
-  // $('.product-slide').slick({
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  //   arrows: false,
-  // });
-
   $('.one-time').slick({
     dots: false,
     infinite: true,
@@ -194,37 +185,6 @@ $(document).ready(function() {
     fade: true,
     cssEase: 'linear'
   });
-
-
-  // $('.center').slick({
-  //   autoplay: true,
-  //   autoplaySpeed: 800,
-  //   dots: false,
-  //   arrows:false,
-  //   centerMode: true,
-  //   centerPadding: '60px',
-  //   slidesToShow: 4,
-  //   responsive: [
-  //     {
-  //       breakpoint: 768,
-  //       settings: {
-  //         arrows: false,
-  //         centerMode: true,
-  //         centerPadding: '40px',
-  //         slidesToShow: 3
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         arrows: false,
-  //         centerMode: true,
-  //         centerPadding: '40px',
-  //         slidesToShow: 1
-  //       }
-  //     }
-  //   ]
-  // });
 
   $('.responsive').slick({
   autoplay: true,
@@ -266,14 +226,6 @@ $(document).ready(function() {
 });
 
 
-// $('.product-slide').slick({
-//   dots: false,
-//   infinite: true,
-//   speed: 500,
-//   fade: true,
-//   cssEase: 'linear'
-// });
-
  $('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -299,16 +251,3 @@ $('.slider-nav').slick({
 
 
 });
-
-
-
-// $('#carouselExample').on('slide.bs.carousel', function (e) {
-//
-//     var $e = $(e.relatedTarget);
-//     var idx = $e.index();
-//     var itemsPerSlide = 4;
-//     var totalItems = $('.carousel-item').length;
-//
-//     if (idx >= totalItems-(itemsPerSlide-1)) {
-//         var it = itemsPerSlide - (totalItems - idx);
-//         for (var i=0; i
