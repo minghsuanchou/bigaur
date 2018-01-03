@@ -7616,6 +7616,9 @@ section#homeprocess .logo-wrapper .slick-slide {
         border-color: #6B54FF;
         margin: 0 4rem;
         padding: 0.5rem 0; }
+        @media (max-width: 767px) {
+          .product-second .product-wrapper .container hgroup .title-border {
+            margin: 0.2rem; } }
       .product-second .product-wrapper .container hgroup h3 {
         font-weight: bold; }
     .product-second .product-wrapper .container .intro-text {
@@ -7719,6 +7722,10 @@ section#homeprocess .logo-wrapper .slick-slide {
       border-color: #6B54FF;
       margin-bottom: 2rem;
       margin: 2rem 0; }
+      @media (max-width: 767px) {
+        .process-one .process-wrapper .section-header .title-border {
+          margin: 2rem -2rem;
+          padding: 0 1rem; } }
     .process-one .process-wrapper .section-header h3 {
       padding: 0.6rem 0; }
   .process-one .process-wrapper .container {
