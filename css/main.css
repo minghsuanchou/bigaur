@@ -7505,7 +7505,7 @@ section#homeprocess .logo-wrapper .slick-slide {
 
 .product .jumbotron {
   background-image: url("../images/product-jumbotron.png");
-  background-position: top center;
+  background-position: top right;
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -7692,7 +7692,7 @@ section#homeprocess .logo-wrapper .slick-slide {
 
 .process .jumbotron {
   background-image: url("../images/process-jumbotron.png");
-  background-position: top center;
+  background-position: top right;
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
