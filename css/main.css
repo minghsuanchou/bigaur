@@ -6946,7 +6946,7 @@ a {
   margin-top: 1rem;
   line-height: 1.5; }
 .home-process .process-intro {
-  background-image: url("../images/process_bg.png");
+  background-image: url("../images/process_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -7007,7 +7007,7 @@ a {
   border-color: #C5C5C5; }
 
 .home-contact .contact-wrapper {
-  background-image: url("../images/contact_bg.png");
+  background-image: url("../images/contact_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7420,7 +7420,7 @@ section#homeprocess .logo-wrapper .slick-slide {
 
 .about .jumbotron {
   padding-top: 150px;
-  background-image: url("../images/about-jumbotron.png");
+  background-image: url("../images/about-jumbotron.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-color: unset;
@@ -7472,7 +7472,7 @@ section#homeprocess .logo-wrapper .slick-slide {
         letter-spacing: 2.8px; } }
 
 .technology .technology-wrapper {
-  background-image: url("../images/technology-jumbotron.png");
+  background-image: url("../images/technology-jumbotron.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -7504,7 +7504,7 @@ section#homeprocess .logo-wrapper .slick-slide {
   padding: 4rem 0; }
 
 .product .jumbotron {
-  background-image: url("../images/product-jumbotron.png");
+  background-image: url("../images/product-jumbotron.jpg");
   background-position: top right;
   background-size: cover;
   object-fit: cover;
@@ -7606,7 +7606,7 @@ section#homeprocess .logo-wrapper .slick-slide {
       border-radius: 50px; }
 
 .product-second .product-wrapper {
-  background-image: url("../images/product_wrapper.png");
+  background-image: url("../images/product_wrapper.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -7664,7 +7664,7 @@ section#homeprocess .logo-wrapper .slick-slide {
         padding-top: unset; } }
 
 .product-customized .container-fluid {
-  background-image: url("../images/customized-wrapper.png");
+  background-image: url("../images/customized-wrapper.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7691,7 +7691,7 @@ section#homeprocess .logo-wrapper .slick-slide {
     text-align: center; }
 
 .process .jumbotron {
-  background-image: url("../images/process-jumbotron.png");
+  background-image: url("../images/process-jumbotron.jpg");
   background-position: top right;
   background-size: cover;
   object-fit: cover;
@@ -7712,7 +7712,7 @@ section#homeprocess .logo-wrapper .slick-slide {
     font-weight: 500; }
 
 .process-one .process-wrapper {
-  background-image: url("../images/product_wrapper.png");
+  background-image: url("../images/product_wrapper.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -7810,7 +7810,7 @@ section#homeprocess .logo-wrapper .slick-slide {
 .contact .jumbotron {
   position: relative;
   padding-top: 150px;
-  background-image: url("../images/contact-jumbotron.png");
+  background-image: url("../images/contact-jumbotron.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-color: unset; }
