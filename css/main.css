@@ -7008,6 +7008,7 @@ a {
 
 .home-contact .contact-wrapper {
   background-image: url("../images/contact_bg.png");
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -7468,7 +7469,7 @@ section#homeprocess .logo-wrapper .slick-slide {
     margin-bottom: 0.3rem; }
     @media (max-width: 767px) {
       .spirit-wrapper .section-header h3 {
-        letter-spacing: 3px; } }
+        letter-spacing: 2.8px; } }
 
 .technology .technology-wrapper {
   background-image: url("../images/technology-jumbotron.png");
@@ -7666,7 +7667,8 @@ section#homeprocess .logo-wrapper .slick-slide {
   background-image: url("../images/customized-wrapper.png");
   object-fit: cover;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: top center; }
 .product-customized .customized-wrapper {
   margin-top: 5rem;
   padding: 3rem 0; }
