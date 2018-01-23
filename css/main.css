@@ -6382,12 +6382,11 @@ a.text-dark:focus, a.text-dark:hover {
 
 body {
   position: relative;
-  font-size: 14px;
   background-color: #FFF;
   color: #222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "PingFang TC", "ping-fang-tc-light", "Open Sans", "Helvetica Neue", Helvetica, "Microsoft JhengHei", "Noto Sans TC", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif; }
   body.modal-open {
     padding-right: 0px !important; }
 
@@ -6665,6 +6664,7 @@ a {
     text-align: center;
     color: #29166E;
     font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600; }
     .main-navi .navbar-nav > li > a:hover, .main-navi .navbar-nav > li > a:focus, .main-navi .navbar-nav > li > a:active, .main-navi .navbar-nav > li > a.active {
       background: #29166E;
@@ -6974,7 +6974,7 @@ a {
       .home-process .process-intro .section-header {
         text-align: center; } }
     .home-process .process-intro .section-header h3 {
-      letter-spacing: 0.38em; }
+      letter-spacing: 0.24em; }
 .home-process .slide-wrap {
   margin: auto 0; }
 .home-process .slide-wrap {
@@ -7061,12 +7061,15 @@ a {
 #footer-container .footer-warp {
   background: #29166E;
   border-top: 1px solid #dee2e6; }
+  #footer-container .footer-warp.no-border-top {
+    border-top: 0; }
   #footer-container .footer-warp h5 {
     text-transform: uppercase;
     margin-bottom: 15px;
     color: #FFF;
-    font-weight: 800;
-    font-size: 1.1em; }
+    font-weight: 600;
+    font-size: 18px;
+    font-size: 1.125rem; }
     @media (max-width: 767px) {
       #footer-container .footer-warp h5 {
         margin-bottom: 10px; } }
@@ -7321,13 +7324,17 @@ section .section-header {
       .company-wrapper .spirit {
         max-width: 100%; } }
     .company-wrapper .spirit li {
-      padding: 50px 0px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       text-align: center; }
       @media (max-width: 767px) {
         .company-wrapper .spirit li {
-          padding: 15px 0; } }
+          padding-top: 15px;
+          padding-bottom: 15px;
+          font-size: 16px;
+          font-size: 1rem; } }
       .company-wrapper .spirit li .photo {
-        margin-bottom: 8px; }
+        margin-bottom: 1rem; }
       .company-wrapper .spirit li img {
         max-width: 100px; }
         @media (max-width: 767px) {
@@ -7407,6 +7414,56 @@ section#homeprocess .logo-wrapper .slick-slide {
   overflow-x: hidden;
   background-color: #FFF;
   position: relative; }
+  #page.english section .section-header h2 {
+    letter-spacing: unset;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-size: 2.625rem;
+    font-weight: 600;
+    font-family: "Trebuchet MS", sans-serif; }
+    @media (max-width: 767px) {
+      #page.english section .section-header h2 {
+        font-size: 24px;
+        font-size: 1.5rem; } }
+    #page.english section .section-header h2.fz-sm {
+      font-size: 32px;
+      font-size: 2rem; }
+  #page.english section .section-header h3 {
+    letter-spacing: unset !important;
+    font-size: 22px;
+    font-size: 1.375rem; }
+    @media (max-width: 767px) {
+      #page.english section .section-header h3 {
+        font-size: 18px;
+        font-size: 1.125rem; } }
+    #page.english section .section-header h3.line-height-lg {
+      line-height: 1.6; }
+    #page.english section .section-header h3.fz-sm {
+      font-size: 18px;
+      font-size: 1.125rem; }
+  #page.english .home-machine .machine-wrapper > .container .section-header .block {
+    font-size: 26px;
+    font-size: 1.625rem;
+    letter-spacing: unset; }
+    @media (max-width: 767px) {
+      #page.english .home-machine .machine-wrapper > .container .section-header .block {
+        font-size: 18px;
+        font-size: 1.125rem;
+        letter-spacing: unset; } }
+    #page.english .home-machine .machine-wrapper > .container .section-header .block:nth-child(2) {
+      margin-left: 0; }
+    #page.english .home-machine .machine-wrapper > .container .section-header .block span {
+      font-size: 32px;
+      font-size: 2rem; }
+      @media (max-width: 767px) {
+        #page.english .home-machine .machine-wrapper > .container .section-header .block span {
+          font-size: 18px;
+          font-size: 1.125rem;
+          padding-right: 0.25rem; } }
+  #page.english .about .section-header h3, #page.english .spirit-intro .section-header h3, #page.english .technology .section-header h3, #page.english .Org-Chart .section-header h3, #page.english .contact-intro .section-header h3 {
+    text-align: left; }
+  #page.english .product-first .item .intro-text li {
+    line-height: 1.3; }
 
 .about .jumbotron p, .spirit-intro .jumbotron p, .technology .jumbotron p, .Org-Chart .jumbotron p, .contact-intro .jumbotron p {
   font-size: unset;
@@ -7418,41 +7475,35 @@ section#homeprocess .logo-wrapper .slick-slide {
   text-align: justify;
   font-weight: 500; }
 
-.about .jumbotron {
-  padding-top: 150px;
-  background-image: url("../images/about-jumbotron.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-color: unset;
-  width: 100%; }
-  @media (max-width: 767px) {
-    .about .jumbotron {
-      padding: 2rem 0;
-      background-color: #ffffff;
-      background-size: cover;
-      object-fit: cover; } }
-  @media (max-width: 767px) {
-    .about .jumbotron .about-wrapper {
-      padding: 1rem; } }
-  .about .jumbotron .about-wrapper .container {
-    background-color: #ffffff;
-    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    padding: 0 2rem 2rem 2rem;
-    overflow-x: hidden;
-    overflow-y: hidden; }
-    @media (max-width: 991px) {
-      .about .jumbotron .about-wrapper .container {
-        padding: 1rem 0 2rem 0; } }
-    .about .jumbotron .about-wrapper .container img {
-      padding: 2rem 0.5rem;
-      display: block;
-      margin: auto; }
+.about-page .jumbotron .bg-wrapper {
+  background-image: url("../images/about-jumbotron.jpg"); }
+
+.jumbotron {
+  background: #FFF; }
+  .jumbotron .bg-wrapper {
+    padding-top: 150px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%; }
+    @media (max-width: 767px) {
+      .jumbotron .bg-wrapper {
+        padding: 2rem 0;
+        background-color: #ffffff;
+        background-size: cover; } }
+    .jumbotron .bg-wrapper.about-wrapper {
+      background-image: url("../images/about-jumbotron.jpg"); }
       @media (max-width: 767px) {
-        .about .jumbotron .about-wrapper .container img {
-          padding: 1rem 0; } }
-      .about .jumbotron .about-wrapper .container img .intro-text div {
-        padding-bottom: 1rem; }
+        .jumbotron .bg-wrapper.about-wrapper {
+          padding: 1rem; } }
+    .jumbotron .bg-wrapper .card {
+      background-color: #FFF;
+      box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.4);
+      border-radius: 0.25rem;
+      border: 0;
+      padding: 2rem; }
+      @media (max-width: 767px) {
+        .jumbotron .bg-wrapper .card {
+          padding: 0; } }
 
 .spirit-wrapper {
   margin: 0 0 5rem 0; }
@@ -7482,8 +7533,10 @@ section#homeprocess .logo-wrapper .slick-slide {
       color: #ffffff; }
   .technology .technology-wrapper .intro-text li {
     color: #6B54FF;
-    font-size: 12pt;
-    line-height: 1.8em; }
+    font-size: 1rem;
+    line-height: 1.4; }
+    .technology .technology-wrapper .intro-text li + li {
+      margin-top: 0.5rem; }
     .technology .technology-wrapper .intro-text li a {
       color: #ffffff; }
 
@@ -7542,6 +7595,8 @@ section#homeprocess .logo-wrapper .slick-slide {
       width: 100%; } }
 .product-first .section-header h2 {
   color: #333; }
+.product-first .product-one-time .row + .row {
+  margin-top: 1rem; }
 .product-first .product-one-time .slick-dots {
   bottom: -60px; }
   .product-first .product-one-time .slick-dots button {
@@ -7562,6 +7617,7 @@ section#homeprocess .logo-wrapper .slick-slide {
         text-align: center; } }
   .product-first .item .section-header h4 {
     font-size: 16px;
+    font-size: 1rem;
     color: #ffffff;
     text-align: center;
     margin-top: 0.5em; }
@@ -7584,7 +7640,9 @@ section#homeprocess .logo-wrapper .slick-slide {
     list-style-type: decimal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 1.8em; }
+    line-height: 1.4; }
+    .product-first .item .intro-text li + li {
+      margin-top: 0.5rem; }
     .product-first .item .intro-text li a {
       color: unset;
       font-weight: normal;
@@ -7633,7 +7691,7 @@ section#homeprocess .logo-wrapper .slick-slide {
       text-align: center; }
       .product-second .product-wrapper .container .intro-text li {
         color: #6B54FF;
-        font-size: 12pt; }
+        font-size: 1rem; }
       .product-second .product-wrapper .container .intro-text a {
         color: #ffffff;
         font-weight: bold; }
@@ -7750,7 +7808,7 @@ section#homeprocess .logo-wrapper .slick-slide {
       text-align: center; }
       .process-one .process-wrapper .container .intro-text li {
         color: #6B54FF;
-        font-size: 12pt; }
+        font-size: 1rem; }
       .process-one .process-wrapper .container .intro-text a {
         color: #ffffff;
         font-weight: bold; }
@@ -7799,13 +7857,14 @@ section#homeprocess .logo-wrapper .slick-slide {
     box-shadow: 4px 5px 8px rgba(84, 84, 84, 0.8);
     -webkit-filter: brightness(0.8); }
 
-.process-two .bigaur-intro img {
-  padding: 6rem 0.5rem 3rem 0.5rem; }
 .process-two .section-header h2 {
   padding-top: 2rem; }
   @media (max-width: 991px) {
     .process-two .section-header h2 {
       padding-top: 3rem; } }
+
+.process-slider-two .bigaur-intro {
+  padding: 1rem 0.5rem; }
 
 .contact .jumbotron {
   position: relative;
